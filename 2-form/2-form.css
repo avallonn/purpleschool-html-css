@@ -2,7 +2,7 @@ main {
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 700;
-    background-color: #F39494;
+    background: linear-gradient(243deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(243deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0.00) 82.03%), #F39494;
 }
 
 input {
