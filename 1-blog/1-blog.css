@@ -1,5 +1,6 @@
 * {
     color: #FFF;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: #373e4d;
@@ -39,23 +40,7 @@ form input {
     margin-bottom: 69px;
 }
 
-#image1 {
-    width: 35px;
-    height: 35px;
-}
-
-#image2 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-
-#developer {
-    color: #abafb5;
-    margin: 10px 0 28px 0;
-}
-
-#image3 {
+#image {
     width: 896px;
     height: 594px;
     flex-shrink: 0;
@@ -63,25 +48,11 @@ form input {
     margin: 0 0 69px 0;
 }
 
-#name {
-    font-size: 16px;
-    margin: 0 0 0 0;
-}
-
 #one {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     margin: 0 0 20px 0;
-}
-
-#two {
-    margin: 0 0 20px 0;
-    font-size: 16px
-}
-
-.three {
-    margin-bottom: 90px;
 }
 
 #foot {
