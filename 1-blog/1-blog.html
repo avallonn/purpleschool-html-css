@@ -6,34 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="1-blog.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
-        <img width="35px" height="35px" src="./images/logo.png" alt="Логотип" />
-        <nav>
-            <ul>
-                <li>Мой блог</li>
-                <li>HTML и СSS</li>
-                <li>Frontend</li>
-                <li>Backend</li>
-            </ul>
+        <nav class="menu">
+            <div class="menu__logo">
+                <div>
+                    <img width="35px" height="35px" src="./images/logo.png" alt="Логотип" />
+                </div>
+                <div>
+                    Мой блог
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML и СSS</li>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                </ul>
+            </div>
+            <div class="menu__search">
+                <form action="#" method="get">
+                    <img src="./images/search.svg" alt="search">
+                    <input type="search" placeholder="Поиск" />
+                </form>
+            </div>
         </nav>
-        <form action="#" method="get">
-            <input type="search" placeholder="Поиск" />
-        </form>
     </header>
 
     <main>
-        <section>
-            <span>FRONTEND &bull; 12 мая 2024</span>
-            <h1>Теория цвета - Как цвет влияет на поведение <br />потребителей.</h1>
-            <img width="50px" height="50px" border-radius="50px" src="./images/woman.png" alt="Автор статьи" />
-            <p style="font-size: 16px; margin: 0 0 0 0;">Наталья Васильева </p>
-            <p style="color: #abafb5; margin: 10px 0 28px 0;">Разработчик</p>
-            <p><img src="./images/Rectangle 181.png" alt="Фото компьютера" id="image" /></p>
-            <p id="one">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых
+        <section class="hero">
+            <div class="hero__headline">
+                <span>FRONTEND &bull; 12 мая 2024</span>
+                <h1>Теория цвета - Как цвет влияет на поведение <br />потребителей.</h1>
+            </div>
+            <div class="hero__devname">
+                <div>
+                    <img width="50px" height="50px" border-radius="50px" src="./images/woman.png" alt="Автор статьи" />
+                </div>
+                <div>
+                    <div>Наталья Васильева</div>
+                    <div style="color: gray; margin-top: 7px;">Разработчик</div>
+                </div>
+            </div>
+
+            <img src="./images/Rectangle 181.png" alt="Фото компьютера" id="image" />
+            <p class="hero1">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых
                 решений. Цвета и
                 различные их
                 комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и
@@ -75,7 +96,7 @@
     </main>
 
     <footer>
-        <div id="foot">Все права защищены &copy; 2024</div>
+        <div class="footer">Все права защищены &copy; 2024</div>
     </footer>
 </body>
 
