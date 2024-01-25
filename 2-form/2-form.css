@@ -1,31 +1,107 @@
-main {
+* {
+    box-sizing: border-box;
     font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #F39494;
 }
 
-input {
-    font-size: 16px;
+body {
+    background-color: rgb(243, 148, 148, 1);
+}
+
+a {
+    color: #089FE0;
+}
+
+#text {
+    width: 394px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;
+}
+
+#email {
+    width: 394px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
     background-color: #F5F5F5;
 }
 
-h1 {
+#name,
+#family {
+    width: calc(394px / 2 - 1px);
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+
+
+.form {
+    width: 582px;
+    height: 573px;
+    margin: auto;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.form__field {
+    align-content: center;
+    margin: 11px 0 11px 0;
+}
+
+.form__headline {
     font-size: 36px;
+    font-weight: 700;
 }
 
-span {
-    color: #089FE0;
-    ;
-}
-
-button {
+.form__login {
     font-size: 18px;
-    color: #FFFFFF;
-    background-color: #089FE0;
-    ;
+    margin: 5px 0px 47px 0px;
 }
 
-section {
+.field2 input {
+    display: inline-flex;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.field2 input,
+.field3 input {
+    font-style: italic;
+}
+
+.field4 button {
+    width: 394px;
+    height: 44px;
+    font-size: 18px;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #089FE0;
+}
+
+.field4 svg {
+    position: absolute;
+    margin: 11px 24px 0 348px;
+}
+
+.field4 button:hover {
+    background-color: #0779aa;
+}
+
+.form__footer {
+    text-align: center;
     font-size: 14px;
+    gap: 11px 1px;
 }
