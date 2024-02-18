@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет Register</title>
+    <link rel="stylesheet" href="2-form.css" />
+</head>
+
+<body>
+    <main>
+        <div class="form">
+            <div class="form__header">
+                <div class="form__headline">
+                    Регистрация
+                </div>
+                <div class="form__login" style="color: #666;">
+                    Уже есть аккаунт? <a href="#">Войти</a>
+                </div>
+            </div>
+            <div class="form__body">
+                <form action="#" method="post">
+                    <div class="form__field field1">
+                        <label for="text"></label>
+                        <input type="text" id="text" />
+                    </div>
+                    <div class="form__field field2">
+                        <label for="name"></label>
+                        <input type="text" placeholder="Имя" id="name" />
+                        <label for="family"></label>
+                        <input type="text" placeholder="Фамилия" id="family" />
+                    </div>
+                    <div class="form__field field3">
+                        <label for="email"></label>
+                        <input type="email" placeholder="E-mail" id="email" />
+                    </div>
+                    <div class="form__field field4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807611 11.9792 0.807611 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM0 13.5H22V10.5H0V13.5Z"
+                                fill="white" />
+                        </svg>
+                        <button>Зарегистрироваться</button>
+                    </div>
+                    <div class="form__footer" style="color: #666;">
+                        <input type="checkbox" />Я прочитал и принимаю <a href="#">Условия
+                            использования</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
