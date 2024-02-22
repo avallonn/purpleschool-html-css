@@ -1,0 +1,32 @@
+:root {
+    --color-text-one: rgba(0, 0, 0, 1);
+    --color-text-second: rgba(78, 93, 124, 0.5);
+    --color-text-third: rgba(78, 93, 124, 1);
+    --color-text-white: #fff;
+    --color-text-blue: rgba(53, 126, 254, 1);
+
+    --color-text-white-06: rgba(255, 255, 255, 0.6);
+    --color-text-white-016: rgba(255, 255, 255, 0.16);
+
+    --color-bg-white: #FFF;
+    --color-bg-blue: rgba(53, 126, 254, 1);
+    --color-bg-green: rgba(26, 188, 156, 1);
+    --color-bg-yellow: rgba(255, 199, 54, 1);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -text-rendering: optimizeLegibility;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
