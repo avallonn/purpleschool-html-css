@@ -3,15 +3,21 @@
     --color-text-second: rgba(78, 93, 124, 0.5);
     --color-text-third: rgba(78, 93, 124, 1);
     --color-text-white: #fff;
-    --color-text-blue: rgba(53, 126, 254, 1);
+    --color-text-blue: #357EFE;
 
+    --color-text-white-05: rgba(255, 255, 255, 0.5);
     --color-text-white-06: rgba(255, 255, 255, 0.6);
+    --color-text-white-07: rgba(255, 255, 255, 0.7);
     --color-text-white-016: rgba(255, 255, 255, 0.16);
+    --color-text-white-08: rgba(255, 255, 255, 0.8);
 
     --color-bg-white: #FFF;
-    --color-bg-blue: rgba(53, 126, 254, 1);
+    --color-bg-blue: #357EFE;
     --color-bg-green: rgba(26, 188, 156, 1);
     --color-bg-yellow: rgba(255, 199, 54, 1);
+    --color-bg-footer: #1A1D25;
+
+    --color-hr: #4E5D7C14;
 
 }
 
