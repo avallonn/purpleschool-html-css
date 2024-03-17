@@ -1,0 +1,244 @@
+.section__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 200px;
+}
+
+.section__h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.section__images-company {
+    width: 334px;
+    height: 85px;
+    margin-top: 40px;
+}
+
+.section__advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    text-align: center;
+    gap: 20px;
+}
+
+.section__blue-h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.section__blue-desc {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-text-white-06);
+    margin-bottom: 40px;
+    max-width: 1200px;
+}
+
+.section__blue-image {
+    margin: 64px;
+}
+
+/* СЕКЦИЯ С МОБИЛЬНОЙ ВЕРСИЕЙ */
+
+.section__secondary-h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.section__secondary-desc {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: var(--color-text-second);
+    margin-bottom: 40px;
+}
+
+.section__secondary-image {
+    margin-bottom: 120px;
+}
+
+/* SECTION SUPPORT */
+
+.section__support {
+    color: var(--color-text-white);
+    background: var(--color-bg-blue);
+    margin: 100px;
+    border-radius: 16px;
+}
+
+.section__support_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    margin-left: 100px;
+    gap: 100px;
+}
+
+.section__support_wrapper-h3 {
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.section__support_wrapper-desc {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-white-08);
+    width: 420px;
+}
+
+.section__support_wrapper-socials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.section__support_wrapper-socials-icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 10px;
+}
+
+/* FEEDBACK */
+
+.section__feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__feedback-h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0;
+    margin-top: 80px;
+}
+
+.section__feedback-images-mobile {
+    display: none;
+}
+
+.switch__button-left {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.switch__button-right {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 1090px;
+    cursor: pointer;
+}
+
+@media (max-width: 1460px) {
+    .section__support_wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1350px) {
+
+    .section__h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .section__h1-image {
+        display: none;
+    }
+
+    .section__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__main {
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+
+    .section__advantages {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .section__support {
+        margin: 0;
+    }
+
+    .section__secondary-h2 {
+        font-size: 36px;
+    }
+
+    .section__support_wrapper {
+        margin: 0;
+        gap: 0;
+    }
+
+    .section__support_wrapper-desc {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .section__secondary-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section__support_wrapper-image {
+        padding-top: 280px;
+        height: 813px;
+        margin: 0 auto;
+    }
+
+    .section__feedback-images-mobile {
+        display: block;
+    }
+
+    .section__feedback-images-image {
+        display: none;
+    }
+
+    .switch_button {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .section__h1 {
+        font-size: 32px;
+        text-align: left;
+        font-weight: 800;
+
+    }
+
+    .section__main {
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 300px;
+    }
+}
